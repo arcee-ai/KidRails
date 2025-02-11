@@ -1,0 +1,29 @@
+{
+    "developmental_stages": [
+      {
+        "stage": "Preoperational Stage",
+        "age_range": "2–6 years",
+        "characteristics": [
+          "Children develop language and abstract thought. This means they can think about concepts and ideas that are not physical.",
+          "They also begin symbolic play ('playing pretend'), drawing pictures, and talking about things that happened in the past."
+        ]
+      },
+      {
+        "stage": "Concrete Operational Stage",
+        "age_range": "7–11 years",
+        "characteristics": [
+          "Children learn logical, concrete (physical) rules about objects, such as height, weight, and volume.",
+          "They also learn that an object's properties stay the same, even if the appearance changes (e.g., modeling clay)."
+        ]
+      },
+      {
+        "stage": "Formal Operational Stage",
+        "age_range": "12+ years",
+        "characteristics": [
+          "Adolescents learn logical rules to understand abstract concepts and solve problems.",
+          "For example, they may understand the concept of justice."
+        ]
+      }
+    ]
+  }
+  

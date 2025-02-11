@@ -1,0 +1,557 @@
+{
+    "developmental_stages": [
+        {
+            "stage": "Preoperational Stage",
+            "age_range": [5,6],
+            "characteristics": [
+                "Children develop language and abstract thought. This means they can think about concepts and ideas that are not physical.",
+                "They also begin symbolic play ('playing pretend'), drawing pictures, and talking about things that happened in the past."
+            ],
+            "personality_traits": [
+                {
+                    "item": "Cognitive Impairment",
+                    "positive_adjectives": [
+                        "Capable",
+                        "Competent",
+                        "Learned"
+                    ],
+                    "negative_adjectives": [
+                        "Incapable",
+                        "Incompetent",
+                        "Uneducated"
+                    ]
+                },
+                {
+                    "item": "Defensiveness",
+                    "positive_adjectives": [
+                        "Confident",
+                        "Assertive",
+                        "Self-assured"
+                    ],
+                    "negative_adjectives": [
+                        "Argumentative",
+                        "Closed-minded"
+                    ]
+                },
+                {
+                    "item": "Delinquency",
+                    "positive_adjectives": [
+                        "Engaging",
+                        "Disciplined",
+                        "Responsible"
+                    ],
+                    "negative_adjectives": [
+                        "Asocial",
+                        "Uncontrolled",
+                        "Rebellious"
+                    ]
+                },
+                {
+                    "item": "Dissimulation",
+                    "positive_adjectives": [
+                        "Tactful",
+                        "Diplomatic",
+                        "Strategic"
+                    ],
+                    "negative_adjectives": [
+                        "Deceptive",
+                        "Manipulative",
+                        "Insincere"
+                    ]
+                },
+                {
+                    "item": "Family Dysfunction",
+                    "positive_adjectives": [
+                        "Harmonious",
+                        "Supportive",
+                        "Loving"
+                    ],
+                    "negative_adjectives": [
+                        "Discordant",
+                        "Chaotic",
+                        "Unstable"
+                    ]
+                },
+                {
+                    "item": "Impulsivity & Distractability",
+                    "positive_adjectives": [
+                        "Energetic",
+                        "Courageous",
+                        "Focused"
+                    ],
+                    "negative_adjectives": [
+                        "Impulsive",
+                        "Restless",
+                        "Unfocused"
+                    ]
+                },
+                {
+                    "item": "Inconsistency",
+                    "positive_adjectives": [
+                        "Flexible",
+                        "Adaptive",
+                        "Open-minded"
+                    ],
+                    "negative_adjectives": [
+                        "Unreliable",
+                        "Unpredictable",
+                        "Fickle"
+                    ]
+                },
+                {
+                    "item": "Reality Distortion",
+                    "positive_adjectives": [
+                        "Imaginative",
+                        "Visionary",
+                        "Philosophical"
+                    ],
+                    "negative_adjectives": [
+                        "Delusional",
+                        "Confused",
+                        "Paranoid"
+                    ]
+                },
+                {
+                    "item": "Social Skills Deficit",
+                    "positive_adjectives": [
+                        "Respected",
+                        "Cooperative",
+                        "Friendly"
+                    ],
+                    "negative_adjectives": [
+                        "Awkward",
+                        "Inattentive",
+                        "Unpopular"
+                    ]
+                },
+                {
+                    "item": "Social Withdrawal",
+                    "positive_adjectives": [
+                        "Thoughtful",
+                        "Independent",
+                        "Reserved"
+                    ],
+                    "negative_adjectives": [
+                        "Isolated",
+                        "Lonely",
+                        "Withdrawn"
+                    ]
+                },
+                {
+                    "item": "Somatic Concerns",
+                    "positive_adjectives": [
+                        "Healthy",
+                        "Fit",
+                        "Health-conscious"
+                    ],
+                    "negative_adjectives": [
+                        "Fatigued",
+                        "Sickly",
+                        "Hypochondriac"
+                    ]
+                }
+            ],
+            "interests": [
+                "Playing pretend",
+                "Drawing",
+                "Building with blocks",
+                "Listening to stories",
+                "Playing with dolls or action figures",
+                "Simple puzzles",
+                "Coloring",
+                "Playing with clay",
+                "Dress-up games",
+                "Simple board games",
+                "Interactive storybooks",
+                "Animal toys",
+                "Playing house",
+                "Water play",
+                "Sandbox play",
+                "Building forts",
+                "Musical toys",
+                "Simple musical instruments",
+                "Counting games",
+                "Alphabet games",
+                "Riding tricycles",
+                "Nature walks",
+                "Simple science experiments",
+                "Planting seeds",
+                "Collecting leaves or rocks",
+                "Interactive TV shows",
+                "Dance",
+                "Basic sports like soccer",
+                "Cooking with parents",
+                "Visiting the zoo"
+            ]
+        },
+        {
+            "stage": "Concrete Operational Stage",
+            "age_range": [7,8,9,10,11],
+            "characteristics": [
+                "Children learn logical, concrete (physical) rules about objects, such as height, weight, and volume.",
+                "They also learn that an object's properties stay the same, even if the appearance changes (e.g., modeling clay)."
+            ],
+            "personality_traits": [
+                {
+                    "item": "Cognitive Impairment",
+                    "positive_adjectives": [
+                        "Capable",
+                        "Competent",
+                        "Learned"
+                    ],
+                    "negative_adjectives": [
+                        "Incapable",
+                        "Incompetent",
+                        "Uneducated"
+                    ]
+                },
+                {
+                    "item": "Defensiveness",
+                    "positive_adjectives": [
+                        "Confident",
+                        "Assertive",
+                        "Self-assured"
+                    ],
+                    "negative_adjectives": [
+                        "Argumentative",
+                        "Closed-minded"
+                    ]
+                },
+                {
+                    "item": "Delinquency",
+                    "positive_adjectives": [
+                        "Engaging",
+                        "Disciplined",
+                        "Responsible"
+                    ],
+                    "negative_adjectives": [
+                        "Asocial",
+                        "Uncontrolled",
+                        "Rebellious"
+                    ]
+                },
+                {
+                    "item": "Dissimulation",
+                    "positive_adjectives": [
+                        "Tactful",
+                        "Diplomatic",
+                        "Strategic"
+                    ],
+                    "negative_adjectives": [
+                        "Deceptive",
+                        "Manipulative",
+                        "Insincere"
+                    ]
+                },
+                {
+                    "item": "Family Dysfunction",
+                    "positive_adjectives": [
+                        "Harmonious",
+                        "Supportive",
+                        "Loving"
+                    ],
+                    "negative_adjectives": [
+                        "Discordant",
+                        "Chaotic",
+                        "Unstable"
+                    ]
+                },
+                {
+                    "item": "Impulsivity & Distractability",
+                    "positive_adjectives": [
+                        "Energetic",
+                        "Courageous",
+                        "Focused"
+                    ],
+                    "negative_adjectives": [
+                        "Impulsive",
+                        "Restless",
+                        "Unfocused"
+                    ]
+                },
+                {
+                    "item": "Inconsistency",
+                    "positive_adjectives": [
+                        "Flexible",
+                        "Adaptive",
+                        "Open-minded"
+                    ],
+                    "negative_adjectives": [
+                        "Unreliable",
+                        "Unpredictable",
+                        "Fickle"
+                    ]
+                },
+                {
+                    "item": "Reality Distortion",
+                    "positive_adjectives": [
+                        "Imaginative",
+                        "Visionary",
+                        "Philosophical"
+                    ],
+                    "negative_adjectives": [
+                        "Delusional",
+                        "Confused",
+                        "Paranoid"
+                    ]
+                },
+                {
+                    "item": "Social Skills Deficit",
+                    "positive_adjectives": [
+                        "Respected",
+                        "Cooperative",
+                        "Friendly"
+                    ],
+                    "negative_adjectives": [
+                        "Awkward",
+                        "Inattentive",
+                        "Unpopular"
+                    ]
+                },
+                {
+                    "item": "Social Withdrawal",
+                    "positive_adjectives": [
+                        "Thoughtful",
+                        "Independent",
+                        "Reserved"
+                    ],
+                    "negative_adjectives": [
+                        "Isolated",
+                        "Lonely",
+                        "Withdrawn"
+                    ]
+                },
+                {
+                    "item": "Somatic Concerns",
+                    "positive_adjectives": [
+                        "Healthy",
+                        "Fit",
+                        "Health-conscious"
+                    ],
+                    "negative_adjectives": [
+                        "Fatigued",
+                        "Sickly",
+                        "Hypochondriac"
+                    ]
+                }
+            ],
+            "interests": [
+                "Board games",
+                "Strategy games",
+                "Sports",
+                "Bicycling",
+                "Reading books",
+                "Science kits",
+                "Art and crafts",
+                "Music lessons",
+                "Puzzles",
+                "Building models",
+                "Playing musical instruments",
+                "Gardening",
+                "Collecting items (e.g., stamps, rocks)",
+                "Video games",
+                "Coding for kids",
+                "Robotics kits",
+                "Cooking or baking",
+                "Magic tricks",
+                "Drama or theater",
+                "Photography",
+                "Bird watching",
+                "Hiking",
+                "Camping",
+                "Swimming",
+                "Fishing",
+                "Chess",
+                "Debate clubs",
+                "Learning a new language",
+                "Volunteering",
+                "Visiting museums"
+            ]
+        },
+        {
+            "stage": "Formal Operational Stage",
+            "age_range": [12],
+            "characteristics": [
+                "Adolescents learn logical rules to understand abstract concepts and solve problems.",
+                "For example, they may understand the concept of justice."
+            ],
+            "personality_traits": [
+                {
+                    "item": "Cognitive Impairment",
+                    "positive_adjectives": [
+                        "Capable",
+                        "Competent",
+                        "Learned"
+                    ],
+                    "negative_adjectives": [
+                        "Incapable",
+                        "Incompetent",
+                        "Uneducated"
+                    ]
+                },
+                {
+                    "item": "Defensiveness",
+                    "positive_adjectives": [
+                        "Confident",
+                        "Assertive",
+                        "Self-assured"
+                    ],
+                    "negative_adjectives": [
+                        "Argumentative",
+                        "Closed-minded"
+                    ]
+                },
+                {
+                    "item": "Delinquency",
+                    "positive_adjectives": [
+                        "Engaging",
+                        "Disciplined",
+                        "Responsible"
+                    ],
+                    "negative_adjectives": [
+                        "Asocial",
+                        "Uncontrolled",
+                        "Rebellious"
+                    ]
+                },
+                {
+                    "item": "Dissimulation",
+                    "positive_adjectives": [
+                        "Tactful",
+                        "Diplomatic",
+                        "Strategic"
+                    ],
+                    "negative_adjectives": [
+                        "Deceptive",
+                        "Manipulative",
+                        "Insincere"
+                    ]
+                },
+                {
+                    "item": "Family Dysfunction",
+                    "positive_adjectives": [
+                        "Harmonious",
+                        "Supportive",
+                        "Loving"
+                    ],
+                    "negative_adjectives": [
+                        "Discordant",
+                        "Chaotic",
+                        "Unstable"
+                    ]
+                },
+                {
+                    "item": "Impulsivity & Distractability",
+                    "positive_adjectives": [
+                        "Energetic",
+                        "Courageous",
+                        "Focused"
+                    ],
+                    "negative_adjectives": [
+                        "Impulsive",
+                        "Restless",
+                        "Unfocused"
+                    ]
+                },
+                {
+                    "item": "Inconsistency",
+                    "positive_adjectives": [
+                        "Flexible",
+                        "Adaptive",
+                        "Open-minded"
+                    ],
+                    "negative_adjectives": [
+                        "Unreliable",
+                        "Unpredictable",
+                        "Fickle"
+                    ]
+                },
+                {
+                    "item": "Reality Distortion",
+                    "positive_adjectives": [
+                        "Imaginative",
+                        "Visionary",
+                        "Philosophical"
+                    ],
+                    "negative_adjectives": [
+                        "Delusional",
+                        "Confused",
+                        "Paranoid"
+                    ]
+                },
+                {
+                    "item": "Social Skills Deficit",
+                    "positive_adjectives": [
+                        "Respected",
+                        "Cooperative",
+                        "Friendly"
+                    ],
+                    "negative_adjectives": [
+                        "Awkward",
+                        "Inattentive",
+                        "Unpopular"
+                    ]
+                },
+                {
+                    "item": "Social Withdrawal",
+                    "positive_adjectives": [
+                        "Thoughtful",
+                        "Independent",
+                        "Reserved"
+                    ],
+                    "negative_adjectives": [
+                        "Isolated",
+                        "Lonely",
+                        "Withdrawn"
+                    ]
+                },
+                {
+                    "item": "Somatic Concerns",
+                    "positive_adjectives": [
+                        "Healthy",
+                        "Fit",
+                        "Health-conscious"
+                    ],
+                    "negative_adjectives": [
+                        "Fatigued",
+                        "Sickly",
+                        "Hypochondriac"
+                    ]
+                }
+            ],
+            "interests": [
+                "Debate",
+                "Philosophy",
+                "Advanced science experiments",
+                "Math puzzles",
+                "Coding",
+                "Creative writing",
+                "Reading classic literature",
+                "Learning musical instruments",
+                "Drama or theater",
+                "Art projects",
+                "Photography",
+                "Sports",
+                "Volunteering",
+                "Community service",
+                "Leadership roles",
+                "Student government",
+                "Advanced strategy games",
+                "Historical reenactments",
+                "Research projects",
+                "Chess",
+                "Public speaking",
+                "Advanced board games",
+                "Robotics",
+                "Debate clubs",
+                "Learning new languages",
+                "Mentoring younger students",
+                "Internships",
+                "Part-time jobs",
+                "Entrepreneurship projects",
+                "Traveling",
+                "Exploring different cultures"
+            ]
+        }
+    ]
+}
