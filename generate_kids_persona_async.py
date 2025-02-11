@@ -2,15 +2,14 @@ import json
 import asyncio
 import sqlite3
 import re
-from typing import Dict, List
+from typing import Dict, List, Optional
 from aiolimiter import AsyncLimiter
 from tqdm.asyncio import tqdm
-from anthropic import AsyncAnthropic
+import httpx
 
 
-ANTHROPIC_API_KEY = "sk-..." # Put your API key here!
-MODEL_NAME = "claude-3-5-sonnet-20240620"
-client = AsyncAnthropic(api_key=ANTHROPIC_API_KEY)
+OPENROUTER_API_KEY = "sk-..." # Put your OpenRouter API key here!
+MODEL_NAME = "llama-3-70B-instruct" if hash(asyncio.get_event_loop()) % 2 == 0 else "qwen-2-72B"
 rate_limiter = AsyncLimiter(5)
 
 
@@ -79,24 +78,38 @@ def extract_persona(text):
     else:
         return None 
 
-async def generate_persona(age: str, developmental_stage: str, personality_traits: str, adjectives: str, interests: str) -> str:
+async def generate_persona(age: str, developmental_stage: str, personality_traits: str, adjectives: str, interests: str) -> Optional[str]:
     prompt_with_variables = make_prompt(age, developmental_stage, personality_traits, adjectives, interests)
+    
     async with rate_limiter:
-        message = await client.messages.create(
-            model=MODEL_NAME,
-            max_tokens=4096,
-            messages=[
-                {
-                    "role": "user",
-                    "content":  prompt_with_variables
+        async with httpx.AsyncClient() as client:
+            response = await client.post(
+                "https://openrouter.ai/api/v1/chat/completions",
+                headers={
+                    "Authorization": f"Bearer {OPENROUTER_API_KEY}",
+                    "HTTP-Referer": "https://your-site.com",  # Replace with your site
+                    "X-Title": "Kids Persona Generator",  # Optional - your app name
                 },
-            ],
-        )
-        print(message)
-        message = message.content[0].text
-        pretty_message = pretty_print(message)
-        return extract_persona(pretty_message)
-     
+                json={
+                    "model": MODEL_NAME,
+                    "messages": [
+                        {
+                            "role": "user",
+                            "content": prompt_with_variables
+                        }
+                    ],
+                    "max_tokens": 4096
+                }
+            )
+            
+            if response.status_code == 200:
+                result = response.json()
+                message = result['choices'][0]['message']['content']
+                pretty_message = pretty_print(message)
+                return extract_persona(pretty_message)
+            else:
+                print(f"Error: {response.status_code} - {response.text}")
+                return None
 
 class Database:
     def __init__(self, db_name: str = 'results.db'):
