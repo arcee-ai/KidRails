@@ -1,4 +1,4 @@
-#KidRails: Replicating a Child-Safe LLM Model
+# KidRails: Replicating a Child-Safe LLM Model
 
 This repository provides the code, data references, and instructions necessary to replicate ourKidRails model—an open-source, child-safe large language model (LLM) built on the KidRails framework. The project was developed to set a new industry standard for age-appropriate, transparent AI interactions for children, and to promote collaboration among educators, developers, and researchers.
 
