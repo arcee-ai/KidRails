@@ -1,6 +1,6 @@
-# KidRails: Replicating a Child-Safe LLM Model
+#  KidRails: Replicating a Child-Safe LLM Model
 
-This repository provides the code, data references, and instructions necessary to replicate ourKidRails model—an open-source, child-safe large language model (LLM) built on the KidRails framework. The project was developed to set a new industry standard for age-appropriate, transparent AI interactions for children, and to promote collaboration among educators, developers, and researchers.
+This repository provides the code, data references, and instructions necessary to replicate our KidRails model—an open-source, child-safe large language model (LLM) built on the  KidRails framework. The project was developed to set a new industry standard for age-appropriate, transparent AI interactions for children, and to promote collaboration among educators, developers, and researchers.
 
 ## Table of Contents
 - Overview
@@ -22,13 +22,13 @@ As LLMs become increasingly integrated into digital experiences for children, en
 - **Choosing Llama 3.1:**  
   Our team conducted extensive testing across various models. Llama 3.1 was selected for its balance of performance and efficiency, complemented by Arcee AI’s expertise in developing smaller yet highly effective models.
 - **Open-Source Commitment:**  
-  MakingKidRails open-source was crucial to set a new benchmark in child-safe AI. By sharing all training data and methods, we empower developers and researchers worldwide to audit, contribute, and adapt the model for diverse applications.
+  Making KidRails open-source was crucial to set a new benchmark in child-safe AI. By sharing all training data and methods, we empower developers and researchers worldwide to audit, contribute, and adapt the model for diverse applications.
 - **Robust Safety Measures:**  
   The model incorporates real Golden QA pairs sourced from educators to ensure responses are both safe and encouraging for children. Additionally, we employed a novel “spectrum” training process to identify and emphasize layers with the highest signal-to-noise ratio, thereby improving computational efficiency and overall response quality.
 
 ## Model & Training Process
 
-The training ofKidRails involved several key steps:
+The training of KidRails involved several key steps:
 1. **Data Collection:**
    - We collaborated with the AngelQ team to gather real Golden QA pairs provided by teachers and educators.
    - These pairs include examples of both safe and unsafe responses, serving as the basis for aligning the model’s outputs with child safety guidelines.
@@ -42,7 +42,7 @@ The training ofKidRails involved several key steps:
    - The base model, Llama 3.1 8B, was chosen after rigorous testing for its optimal performance.
    - Fine-tuning was performed using our custom dataset and training routines, incorporating both the Golden QA pairs and the spectrum analysis outcomes.
 
-For further technical details and the rationale behind each step, please refer to the KidRails white paper included in the repository.
+For further technical details and the rationale behind each step, please refer to the  KidRails white paper included in the repository.
 
 ## License
 
