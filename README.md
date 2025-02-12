@@ -42,7 +42,7 @@ The training of KidRails involved several key steps:
    - The base model, Llama 3.1 8B, was chosen after rigorous testing for its optimal performance.
    - Fine-tuning was performed using our custom dataset and training routines, incorporating both the Golden QA pairs and the spectrum analysis outcomes.
 
-For further technical details and the rationale behind each step, please refer to the  KidRails white paper included in the repository.
+For further technical details and the rationale behind each step, please refer to the  KidRails [white paper](https://www.angelq.ai/resources/kidrails-for-llms) included in the repository.
 
 ## License
 
