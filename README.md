@@ -11,7 +11,7 @@ This repository provides the code, data references, and instructions necessary t
 
 ## Overview
 
-KidSmart is an LLM adapted specifically for ensuring safe, age-appropriate interactions with children. By leveraging a model-agnostic, open-source approach, our framework builds upon robust safety mechanisms and transparent training processes. The repository includes:
+KidRails is an LLM adapted specifically for ensuring safe, age-appropriate interactions with children. By leveraging a model-agnostic, open-source approach, our framework builds upon robust safety mechanisms and transparent training processes. The repository includes:
 - Code for training and fine-tuning the LLM (based on Llama 3.1 8B) for child-safe responses.
 - Data processing scripts to handle our training dataset, which includes curated Golden QA pairs from teachers and educators.
 - Utilities for evaluating model performance against defined safety and age-appropriateness metrics.
