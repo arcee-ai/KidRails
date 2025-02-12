@@ -54,6 +54,6 @@ This project is open-sourced under the MIT License. We encourage academic, educa
 - **Arcee AI:** For their expertise in developing and refining small language models.
 - **Community Contributors:** For ongoing contributions that help set the standard for child-safe AI.
 
-For more information about our mission and to explore additional resources, please visit [AngelKids.ai](https://www.angelq.ai/) and [Arcee.ai](https://www.arcee.ai/).
+For more information about our mission and to explore additional resources, please visit [AngelQ.ai](https://www.angelq.ai/) and [Arcee.ai](https://www.arcee.ai/).
 
 This README documents our comprehensive approach to training a child-safe LLM model. By replicating this process, you help advance the broader goal of creating transparent, safe, and engaging AI experiences for children.
